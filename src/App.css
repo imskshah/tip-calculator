@@ -5,7 +5,7 @@
 .myheader
 {
   height: 75px;
-  background-color: #309191;
+  background-color: #a72772;
   text-align: center;
   color: white;
   padding: 10px;
@@ -21,7 +21,7 @@
 .inputbill
 {
   width: 20%;
-  border: 2px solid #54C3C3;
+  border: 2px solid #a72772;
   border-radius: 4px;
   outline: none;
   padding: 3px;
@@ -36,7 +36,7 @@
 .dropdown
 {
     width: 20%;
-    border: 2px solid #54C3C3;
+    border: 2px solid #a72772;
     border-radius: 4px;
     outline: none;
     padding: 3px;
@@ -47,7 +47,7 @@
 {
   margin-top: 25px;
   width: 10%;
-  border: 2px solid #54C3C3;
+  border: 2px solid #a72772;
   border-radius: 4px;
   outline: none;
   padding: 3px;
@@ -56,7 +56,7 @@
 
 .mybutton:hover
 {
-  background-color: #1E9A9A;
+  background-color: #a72772;
     color: #fff;
 }
 
@@ -75,7 +75,7 @@ hr
 {
   width: 40%;
   height: 150px;
-  border: 2px solid #54C3C3;
+  border: 2px solid #a72772;
   border-radius: 4px;
   outline: none;
   padding: 3px;
@@ -90,7 +90,7 @@ table,th,td
   margin: 30px 20%;
   width: 60%;
   height: 40px;
-  border: 1px solid #54C3C3;
+  border: 1px solid #a72772;
 }
 
 .mytable
@@ -101,7 +101,7 @@ table,th,td
 .myfooter
 {
   height: 40px;
-  background-color: #309191;
+  background-color: #a72772;
   text-align: center;
   color: white;
   margin-top: 5px;
