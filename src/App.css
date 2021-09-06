@@ -1,0 +1,110 @@
+*
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.myheader
+{
+  height: 75px;
+  background-color: #309191;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.para1
+{
+  margin: 20px 0;
+  text-align: center;
+  color: black;
+}
+
+.inputbill
+{
+  width: 20%;
+  border: 2px solid #54C3C3;
+  border-radius: 4px;
+  outline: none;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.inputsection
+{
+  margin: 20px 0;
+}
+
+.dropdown
+{
+    width: 20%;
+    border: 2px solid #54C3C3;
+    border-radius: 4px;
+    outline: none;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.mybutton
+{
+  margin-top: 25px;
+  width: 10%;
+  border: 2px solid #54C3C3;
+  border-radius: 4px;
+  outline: none;
+  padding: 3px;
+  /* background-color: white; */
+}
+
+.mybutton:hover
+{
+  background-color: #1E9A9A;
+    color: #fff;
+}
+
+hr
+{
+  border-bottom: 3px solid #244646;
+}
+
+.outputlist
+{
+  text-align: center;
+  color: black;
+}
+
+.customerdetails
+{
+  width: 40%;
+  height: 150px;
+  border: 2px solid #54C3C3;
+  border-radius: 4px;
+  outline: none;
+  padding: 3px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: left;
+  overflow-y: auto;
+}
+
+table,th,td
+{
+  margin: 30px 20%;
+  width: 60%;
+  height: 40px;
+  border: 1px solid #54C3C3;
+}
+
+.mytable
+{
+  text-align: center;
+}
+
+.myfooter
+{
+  height: 40px;
+  background-color: #309191;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
