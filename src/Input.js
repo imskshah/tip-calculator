@@ -49,7 +49,7 @@ export default class Input extends React.Component
    render()
    {
     return(
-        
+        <>
         <div className="para1">
          <p>Enter your bill amount : </p>
 
@@ -66,6 +66,7 @@ export default class Input extends React.Component
                 </select>
             </div>
 
+         
             <div>
             <p>Customer Name: </p>
             <input type="text" className="inputbill" placeholder="Write a name.." value ={this.state.name} onChange={this.addUser} ></input>
@@ -73,21 +74,22 @@ export default class Input extends React.Component
             <div>
             <button className="mybutton" onClick={()=>{this.addData()}}>Add</button>
             </div>
-            <hr></hr>
+            </div>
+            
             <h5>Customer List</h5>
        
             <div className="customerdetails">
            <ul>
               {this.state.customerlist.map(item =>
-                 <li>{item.name} offering tip of {item.tip} rupees.</li>
+                 <li>{item.name} offering a tip of {item.tip} rupees.</li>
               
               )}
           </ul>
             
         </div>
         <Output  mytabletip = {this.tiptable}  mylength = {this.state.userlength} mytip = {this.state.totaltip}/>
-        </div>
         
+        </>
     )
 }
 

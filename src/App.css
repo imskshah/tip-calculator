@@ -5,27 +5,37 @@
 .myheader
 {
   height: 75px;
-  background-color: #a72772;
-  text-align: center;
+  background-color: #246ec4;
   color: white;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .para1
 {
-  margin: 20px 0;
-  text-align: center;
+  margin: 40px 100px 40px 100px;
+  float: left;
   color: black;
+  width: 35%;
 }
 
 .inputbill
 {
-  width: 20%;
-  border: 2px solid #a72772;
-  border-radius: 4px;
+  width: 70%;
+  border-top: hidden;
+  border-style: hidden;
+  border-bottom: 2px solid #246ec4;
   outline: none;
-  padding: 3px;
+  padding: 10px;
   box-sizing: border-box;
+}
+
+.inputbill::-webkit-inner-spin-button, 
+.inputbill::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .inputsection
@@ -35,52 +45,43 @@
 
 .dropdown
 {
-    width: 20%;
-    border: 2px solid #a72772;
-    border-radius: 4px;
+    width: 70%;
+    border-top: hidden;
+    border-style: hidden;
+    border-bottom: 2px solid #246ec4;
     outline: none;
-    padding: 3px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 .mybutton
 {
   margin-top: 25px;
-  width: 10%;
-  border: 2px solid #a72772;
+  width: 12%;
+  border: 2px solid #246ec4;
   border-radius: 4px;
   outline: none;
-  padding: 3px;
+  padding: 5px;
   /* background-color: white; */
 }
 
 .mybutton:hover
 {
-  background-color: #a72772;
+  background-color: #246ec4;
     color: #fff;
 }
 
-hr
-{
-  border-bottom: 3px solid #244646;
-}
-
-.outputlist
-{
-  text-align: center;
-  color: black;
-}
 
 .customerdetails
 {
   width: 40%;
   height: 150px;
-  border: 2px solid #a72772;
+  border: 2px solid #246ec4;
   border-radius: 4px;
   outline: none;
   padding: 3px;
   box-sizing: border-box;
-  margin: auto;
+  display: grid;
   text-align: left;
   overflow-y: auto;
 }
@@ -88,9 +89,10 @@ hr
 table,th,td
 {
   margin: 30px 20%;
-  width: 60%;
+  width: 40%;
   height: 40px;
-  border: 1px solid #a72772;
+  border: 1px solid #246ec4;
+  text-align: center;
 }
 
 .mytable
@@ -101,10 +103,22 @@ table,th,td
 .myfooter
 {
   height: 40px;
-  background-color: #a72772;
+  background-color: #246ec4;
   text-align: center;
   color: white;
   margin-top: 5px;
   padding-top: 10px;
+}
+
+.outputlist
+{
+ 
+  color: black;
+  
+}
+
+h5
+{
+  margin-top: 40px;
 }
 
