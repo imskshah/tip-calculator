@@ -102,12 +102,14 @@ table,th,td
 
 .myfooter
 {
-  height: 40px;
+  height: 65px;
   background-color: #246ec4;
-  text-align: center;
   color: white;
-  margin-top: 5px;
-  padding-top: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .outputlist
